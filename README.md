@@ -59,39 +59,6 @@ Score = (Maximum Attempts - Attempts + 1) × 10
 
 Fewer attempts result in a higher score.
 
-🔄 Game Flow
-
-START
-  ↓
-Generate Random Number
-  ↓
-Set Attempts = 0
-  ↓
-Enter Guess
-  ↓
-Is Guess Correct?
- ┌───────────────┐
- │               │
-Yes              No
- ↓                ↓
-Calculate       Too High /
-Score           Too Low
- ↓                ↓
-Display Score   Increase Attempts
-                  ↓
-             Attempts Remaining?
-              ↓            ↓
-             Yes           No
-              ↓             ↓
-          Guess Again    Game Over
-              ↓             ↓
-              └──────→ Next Round
-                         ↓
-                    Play Again?
-                     ↓       ↓
-                   Yes       No
-                    ↓         ↓
-                New Round    END
 
 ▶️ How to Run
 
